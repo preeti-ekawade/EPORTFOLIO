@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Editable modern geospatial e-portfolio">
+  <title>My Geospatial E-Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+  <!-- =========================
+       NAVIGATION
+       Edit menu labels/links here
+  ========================== -->
+  <header class="site-header" id="top">
+    <nav class="nav container">
+      <a class="brand" href="#home">PREETI EKAWADE<span>.</span></a>
+
+      <button class="menu-toggle" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+
+      <div class="nav-links">
+        <a href="#about">About</a>
+        <a href="#education">Education</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#experience">Experience</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#contact">Contact</a>
+        <button class="theme-toggle" type="button" aria-label="Toggle dark mode">◐</button>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- =========================
+         HERO
+         Change title, description and image in this section
+    ========================== -->
+    <section class="hero section" id="home">
+      <div class="hero-cloud cloud-1"></div>
+      <div class="hero-cloud cloud-2"></div>
+      <div class="container hero-grid">
+
+        <div class="hero-copy reveal">
+          <p class="eyebrow">GEOSPATIAL • GIS • REMOTE SENSING • GEOAI</p>
+          <h1>Turning <em>geospatial data</em> into meaningful stories.</h1>
+          <p class="hero-text">
+            Hello, I'm <strong>Preeti</strong>. This is my interactive e-portfolio
+            showcasing my GIS, remote sensing, GeoAI, research and spatial analysis work.
+          </p>
+          <div class="button-row">
+            <a class="btn btn-dark" href="#projects">Explore My Work <span>↗</span></a>
+            <a class="btn btn-light" href="#contact">Let's Connect</a>
+          </div>
+        </div>
+
+        <div class="hero-visual reveal delay-1">
+          <div class="hero-image-card parallax">
+            <img src="./assets/images/preeti-profile.jpeg" alt="Preeti Ekawade"
+                 onerror="this.style.display='none'; this.parentElement.classList.add('placeholder')">
+            
+          </div>
+          <div class="floating-note note-one">GIS<br><strong>+ GeoAI</strong></div>
+          <div class="floating-note note-two">Maps<br><strong>Tell Stories</strong></div>
+        </div>
+
+      </div>
+      <div class="scroll-cue">SCROLL TO EXPLORE ↓</div>
+    </section>
+
+    <!-- =========================
+         ABOUT
+    ========================== -->
+    <section class="section white-section" id="about">
+      <div class="container split-grid">
+        <div class="section-heading reveal">
+          <p class="eyebrow">01 — ABOUT ME</p>
+          <h2>A curious mind working at the intersection of <span>maps, data & technology.</span></h2>
+        </div>
+        <div class="about-copy reveal delay-1">
+          <p>
+            Replace this paragraph with your personal introduction. Explain your academic
+            background, interests, research areas and what motivates you to work with geospatial technology.
+          </p>
+          <p>
+            Add another paragraph about your approach, field experience, projects or career goals.
+          </p>
+          <div class="stats-row">
+            <div class="stat"><strong data-count="12">0</strong><span>Projects</span></div>
+            <div class="stat"><strong data-count="8">0</strong><span>GIS Tools</span></div>
+            <div class="stat"><strong data-count="15">0</strong><span>Maps</span></div>
+            <div class="stat"><strong data-count="5">0</strong><span>Research Areas</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================
+         EDUCATION TIMELINE
+    ========================== -->
+    <section class="section blue-section" id="education">
+      <div class="container">
+        <div class="section-heading centered reveal">
+          <p class="eyebrow">02 — EDUCATION</p>
+          <h2>My learning journey</h2>
+          <p>Replace the timeline entries below with your academic history.</p>
+        </div>
+
+        <div class="timeline">
+          <article class="timeline-item reveal">
+            <span class="timeline-year">2025 — PRESENT</span>
+            <div class="timeline-card">
+              <h3>MSc in Geoinformation</h3>
+              <p class="muted">Institution Name • Pune, India</p>
+              <p>Add your specialization, coursework, dissertation or important academic work here.</p>
+            </div>
+          </article>
+
+          <article class="timeline-item reveal">
+            <span class="timeline-year">2022 — 2025</span>
+            <div class="timeline-card">
+              <h3>Bachelor's Degree</h3>
+              <p class="muted">Institution Name • City</p>
+              <p>Add degree details, achievements, projects or activities.</p>
+            </div>
+          </article>
+
+          <article class="timeline-item reveal">
+            <span class="timeline-year">2021 — 2022</span>
+            <div class="timeline-card">
+              <h3>Additional Learning</h3>
+              <p class="muted">Certification / Course / Training</p>
+              <p>Add a course, certification, workshop or other relevant learning experience.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================
+         SKILLS
+         Add/remove skill cards freely
+    ========================== -->
+    <section class="section white-section" id="skills">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">03 — SKILLS</p>
+          <h2>Tools I use to turn data into <span>spatial insight.</span></h2>
+        </div>
+
+        <div class="skills-grid">
+          <article class="skill-card reveal">
+            <div class="skill-icon">GIS</div>
+            <h3>GIS & Mapping</h3>
+            <p>ArcGIS Pro, QGIS, spatial analysis, cartography and geoprocessing.</p>
+            <div class="tags"><span>ArcGIS</span><span>QGIS</span><span>PostGIS</span></div>
+          </article>
+
+          <article class="skill-card reveal delay-1">
+            <div class="skill-icon">RS</div>
+            <h3>Remote Sensing</h3>
+            <p>Satellite imagery, classification, indices, change detection and visualization.</p>
+            <div class="tags"><span>Sentinel</span><span>Landsat</span><span>MODIS</span></div>
+          </article>
+
+          <article class="skill-card reveal delay-2">
+            <div class="skill-icon">GEE</div>
+            <h3>Google Earth Engine</h3>
+            <p>Cloud-based processing, time series analysis, zonal statistics and web apps.</p>
+            <div class="tags"><span>JavaScript</span><span>GEE Apps</span><span>Big Data</span></div>
+          </article>
+
+          <article class="skill-card reveal delay-3">
+            <div class="skill-icon">AI</div>
+            <h3>GeoAI & Python</h3>
+            <p>Machine learning, spatial modelling, automation and data analysis.</p>
+            <div class="tags"><span>Python</span><span>ML</span><span>GeoAI</span></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================
+         PROJECTS + FILTER + GRID/LIST TOGGLE
+    ========================== -->
+    <section class="section lavender-section" id="projects">
+      <div class="container">
+        <div class="section-top reveal">
+          <div class="section-heading">
+            <p class="eyebrow">04 — SELECTED PROJECTS</p>
+            <h2>Work that maps my journey.</h2>
+          </div>
+          <div class="view-toggle" role="group" aria-label="Project view">
+            <button class="active" data-view="grid">▦ Grid</button>
+            <button data-view="list">☷ List</button>
+          </div>
+        </div>
+
+        <div class="filter-row reveal">
+          <button class="filter active" data-filter="all">All</button>
+          <button class="filter" data-filter="gis">GIS</button>
+          <button class="filter" data-filter="remote-sensing">Remote Sensing</button>
+          <button class="filter" data-filter="geoai">GeoAI</button>
+          <button class="filter" data-filter="research">Research</button>
+        </div>
+
+        <div class="projects-grid" id="projectGrid">
+
+          <article class="project-card reveal" data-category="geoai">
+            <div class="project-image">
+              <img src="./assets/images/project-1.jpg" alt="Project 1"
+                   onerror="this.style.display='none'; this.parentElement.classList.add('placeholder')">
+              <span>GEOAI</span>
+            </div>
+            <div class="project-body">
+              <p class="project-number">01</p>
+              <h3>Urban Flood Risk Analysis</h3>
+              <p>Replace this description with your project summary, objective and outcome.</p>
+              <a href="#" class="project-link">View Project <span>↗</span></a>
+            </div>
+          </article>
+
+          <article class="project-card reveal delay-1" data-category="remote-sensing">
+            <div class="project-image">
+              <img src="./assets/images/project-2.jpg" alt="Project 2"
+                   onerror="this.style.display='none'; this.parentElement.classList.add('placeholder')">
+              <span>REMOTE SENSING</span>
+            </div>
+            <div class="project-body">
+              <p class="project-number">02</p>
+              <h3>Vegetation Cover Analysis</h3>
+              <p>Add information about the dataset, methodology, analysis and final visualization.</p>
+              <a href="#" class="project-link">View Project <span>↗</span></a>
+            </div>
+          </article>
+
+          <article class="project-card reveal delay-2" data-category="gis">
+            <div class="project-image">
+              <img src="./assets/images/project-3.jpg" alt="Project 3"
+                   onerror="this.style.display='none'; this.parentElement.classList.add('placeholder')">
+              <span>GIS</span>
+            </div>
+            <div class="project-body">
+              <p class="project-number">03</p>
+              <h3>Campus Spatial Database</h3>
+              <p>Describe your GIS database, PostGIS, digitization, mapping or spatial analysis project.</p>
+              <a href="#" class="project-link">View Project <span>↗</span></a>
+            </div>
+          </article>
+
+          <article class="project-card reveal" data-category="research">
+            <div class="project-image">
+              <img src="./assets/images/project-4.jpg" alt="Project 4"
+                   onerror="this.style.display='none'; this.parentElement.classList.add('placeholder')">
+              <span>RESEARCH</span>
+            </div>
+            <div class="project-body">
+              <p class="project-number">04</p>
+              <h3>Research / Dissertation</h3>
+              <p>Use this card for your thesis, dissertation, research paper or major academic project.</p>
+              <a href="#" class="project-link">View Project <span>↗</span></a>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================
+         INTERACTIVE MAP / EMBED
+         Replace iframe URL with your GEE/QGIS web app
+    ========================== -->
+    <section class="section white-section" id="map">
+      <div class="container">
+        <div class="section-top reveal">
+          <div class="section-heading">
+            <p class="eyebrow">05 — INTERACTIVE MAP</p>
+            <h2>Explore my spatial work.</h2>
+          </div>
+          <div class="map-toggle">
+            <button class="active" data-map-mode="map">MAP</button>
+            <button data-map-mode="data">DATA</button>
+          </div>
+        </div>
+
+        <div class="map-panel reveal">
+          <div class="map-view" id="mapView">
+            <!-- Replace this placeholder with your Earth Engine / ArcGIS / Mapbox iframe -->
+            <div class="map-placeholder">
+              <div>
+                <span class="map-pin">⌖</span>
+                <h3>Interactive Map Area</h3>
+                <p>Paste your GEE / ArcGIS / Mapbox embed inside <code>#mapView</code>.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="data-view hidden" id="dataView">
+            <div class="table-controls">
+              <input id="tableSearch" type="search" placeholder="Search dataset...">
+              <select id="yearFilter">
+                <option value="all">All Years</option>
+                <option>2025</option>
+                <option>2024</option>
+                <option>2023</option>
+              </select>
+            </div>
+            <div class="table-wrap">
+              <table id="dataTable">
+                <thead>
+                  <tr><th>Year</th><th>Dataset</th><th>Study Area</th><th>Result</th><th>Status</th></tr>
+                </thead>
+                <tbody>
+                  <tr><td>2025</td><td>Land Use / Land Cover</td><td>Pune</td><td>72%</td><td><span class="status">Completed</span></td></tr>
+                  <tr><td>2024</td><td>NDVI</td><td>Delhi</td><td>0.63</td><td><span class="status">Completed</span></td></tr>
+                  <tr><td>2023</td><td>Flood Mapping</td><td>Mumbai</td><td>18 km²</td><td><span class="status">Published</span></td></tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================
+         EXPERIENCE
+    ========================== -->
+    <section class="section blue-section" id="experience">
+      <div class="container">
+        <div class="section-heading centered reveal">
+          <p class="eyebrow">06 — EXPERIENCE</p>
+          <h2>Where I have applied my skills.</h2>
+        </div>
+
+        <div class="experience-grid">
+          <article class="experience-card reveal">
+            <span>2026</span>
+            <h3>GIS / GeoAI Internship</h3>
+            <p class="muted">Organization Name</p>
+            <p>Describe your responsibilities, projects, tools and key learning.</p>
+          </article>
+          <article class="experience-card reveal delay-1">
+            <span>2025 — 2026</span>
+            <h3>Academic Projects</h3>
+            <p class="muted">University / Institute</p>
+            <p>Describe major coursework, fieldwork, team projects or research.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================
+         VIDEO
+         Put MP4 files in assets/videos/
+    ========================== -->
+    <section class="section white-section" id="media">
+      <div class="container media-grid">
+        <div class="section-heading reveal">
+          <p class="eyebrow">07 — MEDIA</p>
+          <h2>Show the process, not just the final map.</h2>
+          <p>Add a fieldwork video, screen recording, project animation or presentation here.</p>
+        </div>
+        <div class="video-card reveal delay-1">
+          <video controls poster="assets/images/video-poster.jpg">
+            <source src="./assets/videos/project-demo.mp4" type="video/mp4">
+            Your browser does not support video.
+          </video>
+          <div class="video-caption">
+            <strong>Project / Fieldwork Video</strong>
+            <span>Replace the MP4 in assets/videos/</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================
+         VISUAL ARCHIVE / MAP GALLERY
+    ========================== -->
+    <section class="section lavender-section" id="gallery">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">08 — VISUAL ARCHIVE</p>
+          <h2>A visual archive of my geospatial work.</h2>
+          <p>Selected GIS and spatial-analysis maps from my project work. Click any map to view it larger.</p>
+        </div>
+
+        <div class="gallery-grid map-gallery">
+          <button class="gallery-item map-gallery-item large reveal" data-image="./assets/images/closest-facility.png" data-caption="Closest Facility — GIS spatial analysis map">
+            <img src="./assets/images/closest-facility.png" alt="Closest Facility GIS map">
+            <span class="map-caption"><strong>Closest Facility</strong><small>GIS spatial analysis</small></span>
+          </button>
+
+          <button class="gallery-item map-gallery-item reveal delay-1" data-image="./assets/images/contour.png" data-caption="Contour — terrain and elevation mapping">
+            <img src="./assets/images/contour.png" alt="Contour map">
+            <span class="map-caption"><strong>Contour Map</strong><small>Terrain & elevation</small></span>
+          </button>
+
+          <button class="gallery-item map-gallery-item reveal delay-2" data-image="./assets/images/service-area.png" data-caption="Service Area — GIS network analysis map">
+            <img src="./assets/images/service-area.png" alt="Service Area GIS map">
+            <span class="map-caption"><strong>Service Area</strong><small>GIS network analysis</small></span>
+          </button>
+
+          <button class="gallery-item map-gallery-item reveal delay-3" data-image="./assets/images/stream-order.png" data-caption="Stream Order — drainage and stream-network mapping">
+            <img src="./assets/images/stream-order.png" alt="Stream order map">
+            <span class="map-caption"><strong>Stream Order</strong><small>Drainage network mapping</small></span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================
+         CONTACT
+    ========================== -->
+    <section class="section contact-section" id="contact">
+      <div class="container contact-inner reveal">
+        <p class="eyebrow">09 — CONTACT</p>
+        <h2>Let's create something <em>spatial.</em></h2>
+        <p>Replace the details below with your professional contact information.</p>
+        <div class="contact-buttons">
+          <a class="btn btn-dark" href="mailto:your@email.com">Email Me ↗</a>
+          <a class="btn btn-light" href="#" target="_blank">LinkedIn ↗</a>
+          <a class="btn btn-light" href="#" target="_blank">GitHub ↗</a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <div class="container footer-inner">
+      <span>© 2026 Your Name</span>
+      <a href="#top">Back to top ↑</a>
+    </div>
+  </footer>
+
+  <!-- Lightbox -->
+  <div class="lightbox" id="lightbox" aria-hidden="true">
+    <button class="lightbox-close" aria-label="Close">×</button>
+    <img id="lightboxImage" src="" alt="">
+    <p id="lightboxCaption"></p>
+  </div>
+
+  <script src="./script.js" defer></script>
+</body>
+</html>
